@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9350832028ABA27F005BE37B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9350831F28ABA27F005BE37B /* Roboto-Medium.ttf */; };
+		9350832328ABA684005BE37B /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350832228ABA684005BE37B /* ActionButton.swift */; };
+		935BB9E728AB988C0075826E /* TitleImageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BB9E628AB988C0075826E /* TitleImageLabel.swift */; };
 		93888F7C28AA9EF200DEF3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93888F7B28AA9EF200DEF3C8 /* AppDelegate.swift */; };
 		93888F7E28AA9EF200DEF3C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93888F7D28AA9EF200DEF3C8 /* SceneDelegate.swift */; };
 		93888F8328AA9EF200DEF3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93888F8128AA9EF200DEF3C8 /* Main.storyboard */; };
@@ -18,10 +21,12 @@
 		93888FA628AAB9A200DEF3C8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93888FA528AAB9A200DEF3C8 /* Roboto-Regular.ttf */; };
 		93888FA928AABF2700DEF3C8 /* SpeedTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93888FA828AABF2700DEF3C8 /* SpeedTestViewController.swift */; };
 		93888FAC28AABF3600DEF3C8 /* CleanerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93888FAB28AABF3600DEF3C8 /* CleanerViewController.swift */; };
-		93888FAF28AAC5BF00DEF3C8 /* TitleLabelWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93888FAE28AAC5BF00DEF3C8 /* TitleLabelWithImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9350831F28ABA27F005BE37B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../../Downloads/roboto-2/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9350832228ABA684005BE37B /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		935BB9E628AB988C0075826E /* TitleImageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleImageLabel.swift; sourceTree = "<group>"; };
 		93888F7828AA9EF200DEF3C8 /* UITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93888F7B28AA9EF200DEF3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93888F7D28AA9EF200DEF3C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +40,6 @@
 		93888FA528AAB9A200DEF3C8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../../Downloads/roboto-2/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		93888FA828AABF2700DEF3C8 /* SpeedTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestViewController.swift; sourceTree = "<group>"; };
 		93888FAB28AABF3600DEF3C8 /* CleanerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerViewController.swift; sourceTree = "<group>"; };
-		93888FAE28AAC5BF00DEF3C8 /* TitleLabelWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelWithImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				93888F9928AAA57400DEF3C8 /* GradientBackground.swift */,
-				93888FAE28AAC5BF00DEF3C8 /* TitleLabelWithImage.swift */,
+				935BB9E628AB988C0075826E /* TitleImageLabel.swift */,
+				9350832228ABA684005BE37B /* ActionButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				93888FA528AAB9A200DEF3C8 /* Roboto-Regular.ttf */,
+				9350831F28ABA27F005BE37B /* Roboto-Medium.ttf */,
 				93888FA228AAB99200DEF3C8 /* Roboto-Bold.ttf */,
 			);
 			path = Fonts;
@@ -184,6 +190,7 @@
 			files = (
 				93888F8828AA9EF300DEF3C8 /* LaunchScreen.storyboard in Resources */,
 				93888F8528AA9EF300DEF3C8 /* Assets.xcassets in Resources */,
+				9350832028ABA27F005BE37B /* Roboto-Medium.ttf in Resources */,
 				93888FA628AAB9A200DEF3C8 /* Roboto-Regular.ttf in Resources */,
 				93888FA328AAB99200DEF3C8 /* Roboto-Bold.ttf in Resources */,
 				93888F8328AA9EF200DEF3C8 /* Main.storyboard in Resources */,
@@ -197,13 +204,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93888FAF28AAC5BF00DEF3C8 /* TitleLabelWithImage.swift in Sources */,
 				93888F9728AAA2FA00DEF3C8 /* MainViewController.swift in Sources */,
 				93888FAC28AABF3600DEF3C8 /* CleanerViewController.swift in Sources */,
 				93888F9A28AAA57400DEF3C8 /* GradientBackground.swift in Sources */,
 				93888FA928AABF2700DEF3C8 /* SpeedTestViewController.swift in Sources */,
+				935BB9E728AB988C0075826E /* TitleImageLabel.swift in Sources */,
 				93888F7C28AA9EF200DEF3C8 /* AppDelegate.swift in Sources */,
 				93888F7E28AA9EF200DEF3C8 /* SceneDelegate.swift in Sources */,
+				9350832328ABA684005BE37B /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
