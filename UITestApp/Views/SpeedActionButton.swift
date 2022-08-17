@@ -1,5 +1,5 @@
 //
-//  ActionButton.swift
+//  SpeedActionButton.swift
 //  UITestApp
 //
 //  Created by Михаил Фролов on 16.08.2022.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ActionButton: UIButton {
+class SpeedActionButton: UIButton {
     private let buttonImageView = UIImageView()
     var isStartPressed = false
     

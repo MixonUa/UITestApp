@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9330D1AF28ACDA8500D195E9 /* CleanerInformationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330D1AE28ACDA8500D195E9 /* CleanerInformationButton.swift */; };
 		9350832028ABA27F005BE37B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9350831F28ABA27F005BE37B /* Roboto-Medium.ttf */; };
-		9350832328ABA684005BE37B /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350832228ABA684005BE37B /* ActionButton.swift */; };
+		9350832328ABA684005BE37B /* SpeedActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350832228ABA684005BE37B /* SpeedActionButton.swift */; };
+		9350832728ABCA79005BE37B /* CleanerMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350832628ABCA79005BE37B /* CleanerMenuButton.swift */; };
 		935BB9E728AB988C0075826E /* TitleImageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BB9E628AB988C0075826E /* TitleImageLabel.swift */; };
 		93888F7C28AA9EF200DEF3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93888F7B28AA9EF200DEF3C8 /* AppDelegate.swift */; };
 		93888F7E28AA9EF200DEF3C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93888F7D28AA9EF200DEF3C8 /* SceneDelegate.swift */; };
@@ -24,8 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9330D1AE28ACDA8500D195E9 /* CleanerInformationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerInformationButton.swift; sourceTree = "<group>"; };
 		9350831F28ABA27F005BE37B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../../Downloads/roboto-2/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		9350832228ABA684005BE37B /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		9350832228ABA684005BE37B /* SpeedActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedActionButton.swift; sourceTree = "<group>"; };
+		9350832628ABCA79005BE37B /* CleanerMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerMenuButton.swift; sourceTree = "<group>"; };
 		935BB9E628AB988C0075826E /* TitleImageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleImageLabel.swift; sourceTree = "<group>"; };
 		93888F7828AA9EF200DEF3C8 /* UITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93888F7B28AA9EF200DEF3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +99,9 @@
 			children = (
 				93888F9928AAA57400DEF3C8 /* GradientBackground.swift */,
 				935BB9E628AB988C0075826E /* TitleImageLabel.swift */,
-				9350832228ABA684005BE37B /* ActionButton.swift */,
+				9350832228ABA684005BE37B /* SpeedActionButton.swift */,
+				9350832628ABCA79005BE37B /* CleanerMenuButton.swift */,
+				9330D1AE28ACDA8500D195E9 /* CleanerInformationButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,9 +215,11 @@
 				93888F9A28AAA57400DEF3C8 /* GradientBackground.swift in Sources */,
 				93888FA928AABF2700DEF3C8 /* SpeedTestViewController.swift in Sources */,
 				935BB9E728AB988C0075826E /* TitleImageLabel.swift in Sources */,
+				9350832728ABCA79005BE37B /* CleanerMenuButton.swift in Sources */,
 				93888F7C28AA9EF200DEF3C8 /* AppDelegate.swift in Sources */,
+				9330D1AF28ACDA8500D195E9 /* CleanerInformationButton.swift in Sources */,
 				93888F7E28AA9EF200DEF3C8 /* SceneDelegate.swift in Sources */,
-				9350832328ABA684005BE37B /* ActionButton.swift in Sources */,
+				9350832328ABA684005BE37B /* SpeedActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

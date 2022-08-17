@@ -11,11 +11,11 @@ class SpeedTestViewController: UIViewController {
     @IBOutlet weak var topContentView: UIView!
     @IBOutlet weak var bottomContentView: UIView!
     
-    let backgroundView = GradientBackground()
-    let titleLabel = TitleImageLabel(imageName: "speed")
-    let tracedImageView = UIImageView()
-    let speedometerImageView = UIImageView()
-    let actionButton = ActionButton()
+    private let backgroundView = GradientBackground()
+    private let titleLabel = TitleImageLabel(imageName: "speed")
+    private let tracedImageView = UIImageView()
+    private let speedometerImageView = UIImageView()
+    private let actionButton = SpeedActionButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()

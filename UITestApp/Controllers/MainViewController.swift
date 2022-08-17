@@ -11,7 +11,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var speedTestButton: UIButton!
     @IBOutlet weak var cleanerButton: UIButton!
     
-    let backgroundView = GradientBackground()
+    private let backgroundView = GradientBackground()
     
     override func viewDidLoad() {
         super.viewDidLoad()
