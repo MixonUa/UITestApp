@@ -109,7 +109,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ssC-7n-rNM">
-                                <rect key="frame" x="30" y="129" width="355" height="240"/>
+                                <rect key="frame" x="30" y="168" width="355" height="240"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="XLC-Z8-m9g"/>
@@ -238,8 +238,8 @@
                             <constraint firstItem="oHM-u0-kg1" firstAttribute="trailing" secondItem="ssC-7n-rNM" secondAttribute="trailing" constant="29" id="XFH-pS-bMn"/>
                             <constraint firstItem="oHM-u0-kg1" firstAttribute="bottom" secondItem="PG8-Lz-tsn" secondAttribute="bottom" constant="30" id="dEV-tI-Rei"/>
                             <constraint firstItem="oHM-u0-kg1" firstAttribute="trailing" secondItem="PG8-Lz-tsn" secondAttribute="trailing" constant="10" id="dP2-cK-cbR"/>
+                            <constraint firstItem="ssC-7n-rNM" firstAttribute="centerY" secondItem="2hb-H2-sX1" secondAttribute="centerY" constant="-80" id="i5v-Ho-q6O"/>
                             <constraint firstItem="ssC-7n-rNM" firstAttribute="leading" secondItem="oHM-u0-kg1" secondAttribute="leading" constant="30" id="oJq-zS-Bd8"/>
-                            <constraint firstItem="ssC-7n-rNM" firstAttribute="top" secondItem="oHM-u0-kg1" secondAttribute="top" constant="129" id="s6q-pf-mRw"/>
                             <constraint firstItem="8zI-r3-nN5" firstAttribute="top" secondItem="oHM-u0-kg1" secondAttribute="top" constant="20" id="txs-Hi-S8t"/>
                         </constraints>
                     </view>

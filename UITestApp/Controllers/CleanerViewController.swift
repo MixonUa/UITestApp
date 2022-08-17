@@ -91,7 +91,7 @@ class CleanerViewController: UIViewController {
         videoMenuButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             videoMenuButton.bottomAnchor.constraint(equalTo: buttonsBottomView.bottomAnchor, constant: -23),
-            videoMenuButton.trailingAnchor.constraint(equalTo: buttonsBottomView.trailingAnchor, constant: -72),
+            videoMenuButton.trailingAnchor.constraint(equalTo: buttonsBottomView.trailingAnchor, constant: -70),
             videoMenuButton.heightAnchor.constraint(equalToConstant: 111),
             videoMenuButton.widthAnchor.constraint(equalToConstant: 111)
         ])
@@ -104,7 +104,7 @@ class CleanerViewController: UIViewController {
         photoMenuButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             photoMenuButton.bottomAnchor.constraint(equalTo: buttonsBottomView.bottomAnchor, constant: -23),
-            photoMenuButton.trailingAnchor.constraint(equalTo: videoMenuButton.leadingAnchor, constant: -50),
+            photoMenuButton.leadingAnchor.constraint(equalTo: buttonsBottomView.leadingAnchor, constant: 70),
             photoMenuButton.heightAnchor.constraint(equalToConstant: 111),
             photoMenuButton.widthAnchor.constraint(equalToConstant: 111)
         ])
@@ -129,7 +129,7 @@ class CleanerViewController: UIViewController {
         
         screenshotsInformationButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            screenshotsInformationButton.bottomAnchor.constraint(equalTo: storageMenuButton.topAnchor, constant: -10),
+            screenshotsInformationButton.bottomAnchor.constraint(equalTo: storageMenuButton.topAnchor, constant: -25),
             screenshotsInformationButton.centerXAnchor.constraint(equalTo: buttonsBottomView.centerXAnchor),
             screenshotsInformationButton.heightAnchor.constraint(equalToConstant: 111),
             screenshotsInformationButton.widthAnchor.constraint(equalToConstant: 111)
@@ -143,7 +143,7 @@ class CleanerViewController: UIViewController {
         photosInformationButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             photosInformationButton.bottomAnchor.constraint(equalTo: buttonsBottomView.bottomAnchor, constant: -207),
-            photosInformationButton.leadingAnchor.constraint(equalTo: buttonsBottomView.leadingAnchor, constant: 15),
+            photosInformationButton.leadingAnchor.constraint(equalTo: buttonsBottomView.leadingAnchor, constant: 25),
             photosInformationButton.heightAnchor.constraint(equalToConstant: 111),
             photosInformationButton.widthAnchor.constraint(equalToConstant: 111)
         ])
@@ -156,7 +156,7 @@ class CleanerViewController: UIViewController {
         contactsInformationButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             contactsInformationButton.bottomAnchor.constraint(equalTo: buttonsBottomView.bottomAnchor, constant: -207),
-            contactsInformationButton.trailingAnchor.constraint(equalTo: buttonsBottomView.trailingAnchor, constant: -15),
+            contactsInformationButton.trailingAnchor.constraint(equalTo: buttonsBottomView.trailingAnchor, constant: -25),
             contactsInformationButton.heightAnchor.constraint(equalToConstant: 111),
             contactsInformationButton.widthAnchor.constraint(equalToConstant: 111)
         ])
